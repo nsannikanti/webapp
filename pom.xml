@@ -71,7 +71,8 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <distributionManagement>
+  </build>
+  <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>webapp_releases</id>
@@ -87,5 +88,4 @@
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
-  </build>
-  </project>
+</project>
