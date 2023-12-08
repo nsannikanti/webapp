@@ -77,14 +77,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>webapp_releases</id>
       <name>webapp_releases</name>
-      <url>http://3.110.151.102:8081/nexus/content/repositories/webapp_releases/</url>
+      <url>http://3.110.151.37:8081/nexus/content/repositories/webapp_releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>webapp_snapshots</id>
       <name>webapp_snapshots</name>
-      <url>http://3.110.151.102:8081/nexus/content/repositories/webapp_snapshots/</url>
+      <url>http://3.110.151.37:8081/nexus/content/repositories/webapp_snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
