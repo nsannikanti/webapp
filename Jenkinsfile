@@ -1,5 +1,6 @@
 pipeline {
-    agent { label 'maven-label' }
+    // agent { label 'maven-label' }
+    agent { label 'aws-label' }
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
