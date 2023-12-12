@@ -14,7 +14,7 @@ pipeline {
                 checkout scm
 
                 // Run Maven on a Unix agent.
-                sh "mvn -Dmaven.test.failure.ignore=true -settings.xml clean deploy"
+                sh "mvn -Dmaven.test.failure.ignore=true -s settings.xml clean deploy"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
